@@ -159,5 +159,12 @@
         "description": "Move the flag by changing the x and y variables.",
         "advanced": false,
         "url": "moveflag.js"
+    },
+    "behaviors": {
+        "name": "Behaviors",
+        "author": "OvOPlant",
+        "description": "Change the behaviors of the game.",
+        "advanced": false,
+        "url": "behaviors.js"
     }
 }
