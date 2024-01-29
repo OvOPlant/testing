@@ -16,12 +16,6 @@
                     (x) => x.instance_vars[17] === "" && x.behavior_insts[0].enabled
                 );
             let player = playerInstances[0];
-            try {
-                document.getElementById("pos").innerHTML =
-                    Math.round(player.x.toString()) +
-                    ", " +
-                    Math.round(player.y.toString());
-            } catch (err) { }
         },
     };
 
@@ -42,31 +36,6 @@
             } catch (err) { }
         },
     };
-
-    var b = document.createElement("div"),
-        c = {
-            backgroundColor: "white",
-            border: "solid",
-            borderColor: "black",
-            borderWidth: "6px",
-            fontFamily: "Retron2000",
-            position: "absolute",
-            top: "115px",
-            left: "86px",
-            padding: "10px",
-            color: "black",
-            fontSize: "20pt",
-        };
-    Object.keys(c).forEach(function (a) {
-        b.style[a] = c[a];
-    });
-    b.id = "pos";
-    const newContent = document.createTextNode("N/A");
-
-    // add the text node to the newly created div
-    b.appendChild(newContent);
-
-    document.body.appendChild(b);
 
     g = globalThis.ovoExplorer = {
         init: function () {
