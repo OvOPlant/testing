@@ -138,7 +138,7 @@ function loadCoordsChange(){
     }
 }
 function loadLevelCoords(){
-    let flagLevel = prompt("Type a level number 1-60 to change the flag's coordinates to that level's flag.")
+    let flagLevel = prompt("Type a 1.4.4 level number (1-60) to change the flag's coordinates to that level's flag.")
     if(parseFloat(flagLevel) >= 1 && parseFloat(flagLevel) <= 60){
     if(parseFloat(flagLevel) === 1){x = 1512, y = 288
     }else if(parseFloat(flagLevel) === 2){x = 2264, y = 440
