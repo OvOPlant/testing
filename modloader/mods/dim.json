@@ -166,5 +166,12 @@
         "description": "Change the behaviors of the game.",
         "advanced": false,
         "url": "behaviors.js"
+    },
+    "resetbutton": {
+        "name": "Reseet Button",
+        "author": "OvOPlant",
+        "description": "Reset the level because V7 doesn't allow you to.",
+        "advanced": false,
+        "url": "resetbutton.js"
     }
 }
