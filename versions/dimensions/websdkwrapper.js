@@ -68,7 +68,7 @@ globalThis.WebSdkWrapper = (function () {
       get sdk() {
         return globalThis.PokiSDK;
       },
-      scriptSrc: "//game-cdn.poki.com/scripts/v2/poki-sdk.js",
+      scriptSrc: "/poki-sdk.js",
       hasAds: true,
       hasBanner: false,
       enableOnlyInProduction: false,
