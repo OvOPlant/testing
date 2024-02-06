@@ -421,7 +421,7 @@
                         x.animations[0].frames[0].texture_file.includes("collider")
                 )[0]
                 .instances.filter(
-                    (x) => x.instance_vars[17] === "")[0]
+                    (x) => x.instance_vars[18] === "")[0]
         },
         
         getMovearea() {
@@ -480,7 +480,7 @@
                         x.animations[0].frames[0].texture_file.includes("collider")
                 )[0]
                 .instances.filter(
-                    (x) => x.instance_vars[17] === "" && x.behavior_insts[0].enabled
+                    (x) => x.instance_vars[18] === "" && x.behavior_insts[0].enabled
                 );
             let player = playerInstances[0];
             try {
