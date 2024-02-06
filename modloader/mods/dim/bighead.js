@@ -9,7 +9,7 @@
     }
 
     const getHead = () => {
-        return getLayer().instances.find(x => x.type.name === "t33");
+        return getLayer().instances.find(x => x.type.name === "t32");
     }
 
     const isInLevel = () => {

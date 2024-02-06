@@ -12,7 +12,7 @@
                     x.animations[0].frames[0].texture_file.includes("collider")
             )[0]
             .instances.filter(
-                (x) => x.instance_vars[17] === "" && x.behavior_insts[0].enabled
+                (x) => x.instance_vars[18] === "" && x.behavior_insts[0].enabled
             )[0];
     }
 

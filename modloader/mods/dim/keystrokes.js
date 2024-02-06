@@ -259,7 +259,7 @@
                     x.animations[0].frames[0].texture_file.includes("collider")
             )[0]
             .instances.filter(
-                (x) => x.instance_vars[17] === "" && x.behavior_insts[0].enabled
+                (x) => x.instance_vars[18] === "" && x.behavior_insts[0].enabled
             )[0];
     }
 
@@ -1637,7 +1637,7 @@
         },
 
         tick() {
-            let playerInstances = runtime.types_by_index.filter((x) => !!x.animations && x.animations[0].frames[0].texture_file.includes("collider"))[0].instances.filter((x) => x.instance_vars[17] === "" && x.behavior_insts[0].enabled);
+            let playerInstances = runtime.types_by_index.filter((x) => !!x.animations && x.animations[0].frames[0].texture_file.includes("collider"))[0].instances.filter((x) => x.instance_vars[18] === "" && x.behavior_insts[0].enabled);
             let player = playerInstances[0];
             const elements = document.querySelectorAll('.gui');
             //console.log(this.attempts)
