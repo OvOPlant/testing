@@ -68,7 +68,7 @@ globalThis.WebSdkWrapper = (function () {
       get sdk() {
         return globalThis.PokiSDK;
       },
-      scriptSrc: "poki-sdk.js",
+      scriptSrc: "https://ovoplant.github.io/testing/versions/dimensions/poki-sdk.js",
       hasAds: true,
       hasBanner: false,
       enableOnlyInProduction: false,
