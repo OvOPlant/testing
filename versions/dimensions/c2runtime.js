@@ -20132,6 +20132,7 @@ cr.plugins_.Browser = function(runtime)
 	Acts.prototype.InvokeDownload = function (url_, filename_)
 	{
 		var a = document.createElement("a");
+		console.log("downloading replay")
 		if (typeof a["download"] === "undefined")
 		{
 			window.open(url_);
@@ -20151,10 +20152,19 @@ cr.plugins_.Browser = function(runtime)
 	Acts.prototype.InvokeDownloadString = function (str_, mimetype_, filename_)
 	{
 		var datauri = "data:" + mimetype_ + "," + encodeURIComponent(str_);
+		var decodedatauri = "data:" + mimetype_ + "," + decodeURIComponent(encodeURIComponent(str_));
+		console.log(decodedatauri)
+		console.log(str_)
+
+		console.log(datauri)
 		var a = document.createElement("a");
+		console.log("downloading replay")
+
 		if (typeof a["download"] === "undefined")
 		{
 			window.open(datauri);
+			console.log("download undef")
+
 		}
 		else
 		{
@@ -20166,6 +20176,8 @@ cr.plugins_.Browser = function(runtime)
 			var clickEvent = new MouseEvent("click");
 			a.dispatchEvent(clickEvent);
 			body.removeChild(a);
+			console.log("download second")
+
 		}
 	};
 	Acts.prototype.ConsoleLog = function (type_, msg_)
