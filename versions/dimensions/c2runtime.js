@@ -37378,7 +37378,7 @@ cr.plugins_.rojo3d = function (runtime) {
   };
   instanceProto.destroyObj = function (tag) {
     if (tag == "" || tag == "camera" || tag == "light" || !(tag in this.objs)) {
-      console.log("error: can't destroy \"" + tag + '".');
+      //console.log("error: can't destroy \"" + tag + '".');
       return;
     }
     var obj = this.objs[tag],
