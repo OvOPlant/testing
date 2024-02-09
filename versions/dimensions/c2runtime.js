@@ -54334,6 +54334,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.aekiro_model.prototype.acts.StringToHashTable,
 	cr.plugins_.Globals.prototype.exps.GetVariablesAsJSON,
 	cr.plugins_.ValerypopoffJSPlugin.prototype.acts.SetValue,
+	cr.plugins_.AJAX.prototype.cnds.OnError,
 	cr.plugins_.SpriteFontPlus.prototype.acts.Destroy,
 	cr.plugins_.rojoPaster.prototype.acts.Destroy,
 	cr.plugins_.c2canvas.prototype.acts.Destroy,
