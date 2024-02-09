@@ -54264,6 +54264,8 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.sirg_notifications.prototype.acts.AddNotification,
 	cr.plugins_.sirg_notifications.prototype.acts.AddNotificationClickable,
 	cr.plugins_.sirg_notifications.prototype.acts.DeleteAllNotifications,
+	cr.plugins_.skymen_skinsCore.prototype.acts.AddSkin,
+	cr.plugins_.skymen_skinsCore.prototype.acts.Init,
 	cr.plugins_.Keyboard.prototype.cnds.OnAnyKey,
 	cr.plugins_.Keyboard.prototype.exps.LastKeyCode,
 	cr.plugins_.Globals.prototype.acts.SetInstanceVar,
